@@ -38,3 +38,16 @@ footer{
     height: 500px;
     margin: 0px;
 }
+.link-autoral{
+   display: inline;
+   margin: 0px;
+   font-size: 0.8em;
+}
+aside{
+    width: 100%;
+    margin:0px
+}
+nav{
+    padding: 400px;
+}
+
