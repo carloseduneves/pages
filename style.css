@@ -7,14 +7,12 @@
     --cor4: #F0F0EB;
     --cor5: #FFE849;
 }
-body{
-    background-color: var(--cor1);
-    margin: 0px;
-}
 header{
     background-color: var(--cor5);
-    height: 500px;
+    height: 200px;
     margin: 0px;
+    width: 100%;
+   
 }
 main{
     margin: auto;
@@ -33,11 +31,7 @@ img{
 img > p{
     font-size: 0.5em;
 }
-footer{
-    background-color: var(--cor3);
-    height: 500px;
-    margin: 0px;
-}
+
 .link-autoral{
    display: inline;
    margin: 0px;
@@ -48,6 +42,18 @@ aside{
     margin:0px
 }
 nav{
-    padding: 400px;
+    padding-top: 90px;
+    margin: 0px;
+
+}
+article{
+    
+    background-image: url('./media/orquestra-1000px.jpg');
+    margin: 0px;
+    width: 100%;
+    
+}
+article > p{
+    background-color: transparent;
 }
 
