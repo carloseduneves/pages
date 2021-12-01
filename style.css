@@ -9,7 +9,8 @@
 }
 header{
     background-color: var(--cor5);
-    height: 200px;
+    min-height: 100px;
+    max-height: 600px;
     margin: 0px;
     width: 100%;
    
@@ -42,18 +43,27 @@ aside{
     margin:0px
 }
 nav{
-    padding-top: 90px;
+    padding-top: 70px;
     margin: 0px;
 
 }
-article{
+body{
     
     background-image: url('./media/orquestra-1000px.jpg');
     margin: 0px;
-    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+   
+    
+   
     
 }
 article > p{
     background-color: transparent;
+    
+}
+main{
+    
 }
 
