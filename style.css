@@ -48,16 +48,12 @@ nav{
 
 }
 body{
-    
+    height: 100vh;
     background-image: url('./media/orquestra-1000px.jpg');
     margin: 0px;
     background-repeat: no-repeat;
-    background-size: 100%;
-    
-   
-    
-   
-    
+    background-position: center center;
+    background-size: cover;
 }
 article > p{
     background-color: transparent;
@@ -65,5 +61,9 @@ article > p{
 }
 main{
     
+}
+p{
+  background-color: transparent;
+  left: auto;;
 }
 
