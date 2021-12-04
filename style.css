@@ -35,13 +35,7 @@ nav{
     padding-left: 10px;
 }
 a.menu{
-    padding-left: 7vw;
-}
-a{
-    text-decoration: none;
-    color: var(--cor3);
-    font-weight: bolder;
-    position: relative;
+
 }
 main{
     height: 100vh;
@@ -62,5 +56,21 @@ h1{
     font-family: 'Lato';
     color: rgb(48, 48, 48);
     font-weight: bolder;
+}
+nav > a{
+    color: var(--cor3);
+    width: 30px;
+    height: 20px;
+    border-radius: 20px;
+    margin-left: 30px;
+    padding: 10px;
+    text-decoration: none;
+}
+nav > a:hover{
+    background-color: var(--cor3);
+    color: var(--cor5);
+    transition-duration: 1s;
+    transition: 1s;
+    
 }
 
